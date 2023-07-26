@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+     <!--Font Awesome script for using icons from font awesome-->
+	 <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+    <title>Music Player</title>
+  </head>
+
+  <body>
+    <!-- <h1>Welcome Ninja!!</h1>
+    <h3>Write your code here!</h3>
+    <h3>A CSS and JS file has been created and linked for you already.</h3>
+    <h3>Feel free to change the directory structure to your liking.</h3>
+    <h3>Do not delete any .json file from CodeSandbox</h3> -->
+    <!-- Begging of Navigation Bar -->
+    <nav>
+      <!-- Music Player Logo div -->
+      <div id="music-player-tag">
+        <div id="music-player-logo">
+          <img src="Images/logo_musicPlayer.png" />
+        </div>
+        <!-- Logo End -->
+        <!--Music Player Title-->
+        <div id="music-player-name">Ninja<br /><b>Studio</b></div>
+      </div>
+      <!--Music Player Title div end-->
+      <!-- Search bar  -->
+      <div id="search-bar-utility">
+        <div id="search-bar">
+          <form>
+            <input type="text" placeholder="Search..." />
+            <!--Search Icon-->
+            <i class="fas fa-search"></i>
+          </form>
+        </div>
+        <!-- Search Bar end -->
+        <!--Notification Bell div-->
+        <div id="notifications">
+          <i class="fas fa-bell"></i>
+        </div>
+        <!--Notification Bell div end-->
+        <!--User Image div-->
+        <div id="user">
+          <img src="Images/UserLogo.png" />
+        </div>
+      </div>
+      <!--User Image div end-->
+    </nav>
+    <!--End of navigation bar section-->
+    <!--Main Section-->
+    <main>
+      <!--Artist Template-->
+      <div id="artist-template">
+        <div id="artist-image"></div>
+        <!--Artist Details
+        >-->
+        <div id="artist-details">
+          <!--Artist Title-->
+          <div id="artist-title">
+            <div>
+              <b>Cold Play</b>
+              <br />
+              <artist-type>British Band</artist-type>
+            </div>
+            <followers>851 followers</followers>
+          </div>
+          <!--End of Artist Title-->
+          <!--Artist Intro-->
+          <div id="artist-intro">
+            Coldplay is a British Music Band that has enjoyed continuous sucsess
+            since their inception in 1996 through their intelligent and soulful
+            song.The Band Members are Chris Martin(Lead Vocal), Jonny
+            Buckland(Lead Guitar),Guy Berryman(Bass Guitar) and Will
+            Champion(drums).
+          </div>
+          <!--End of Artist Intro-->
+          <!--Miscellaneous Buttons-->
+          <div id="artist-buttons">
+            <div id="playall-button">
+              Play All
+            </div>
+            <div id="follow-button">
+              Follow
+            </div>
+          </div>
+          <div id="tracks">
+            247 Tracks | 128 Albums
+          </div>
+          <!--End of miscellaeous buttons-->
+        </div>
+        <!--End of artist details-->
+      </div>
+      <!--End of artist template-->
+      <!--Begining of artist songs-->
+      <div id="artist-songs">
+        <!--Song 1-->
+        <div id="song">
+          <div id="song-number">
+            01
+            <img src="Images/Similarartist.png" alt="album image" />
+            <div id="song-details">
+              Mirage
+              <br />
+              <author>Else</author>
+            </div>
+          </div>
+
+          <div id="icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <!--End of Song 1-->
+        <!--Song 2-->
+        <div id="song">
+          <div id="song-number">
+            02
+            <img src="Images/worry about us.png" alt="album image" />
+            <div id="song-details">
+              Worry Bout Us
+              <br />
+              <author>Rosie Lowe </author>
+            </div>
+          </div>
+
+          <div id="icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <!--End of Song 2-->
+        <!--Song 3-->
+        <div id="song">
+          <div id="song-number">
+            03
+            <img src="Images/new skin.png" alt="album image" />
+            <div id="song-details">
+              New Skin
+              <br />
+              <author>Flume</author>
+            </div>
+          </div>
+
+          <div id="icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <!--End of Song 3-->
+        <!--Song 4-->
+        <div id="song">
+          <div id="song-number">
+            04
+            <img src="Images/worry about us.png" alt="album image" />
+            <div id="song-details">
+              Worry Bout Us
+              <br />
+              <author>Rosie Lowe </author>
+            </div>
+          </div>
+
+          <div id="icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <!--End of Song 4-->
+        <!--Song 5-->
+        <div id="song">
+          <div id="song-number">
+            05
+            <img src="Images/new skin.png" alt="album image" />
+            <div id="song-details">
+              New Skin
+              <br />
+              <author>Flume</author>
+            </div>
+          </div>
+
+          <div id="icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <!--End of Song 5-->
+        <!--Song 6-->
+        <div id="song">
+          <div id="song-number">
+            06
+            <img src="Images/mirage.png" alt="album image" />
+            <div id="song-details">
+              Mirage
+              <br />
+              <author>Else</author>
+            </div>
+          </div>
+
+          <div id="icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <!--End of Song 6-->
+        
+    </main>
+    <!--End of main section-->
+    <!--Begining of Aside Section-->
+    <aside>
+        <div id="aside-header-1">
+          Similar Artists
+          <x>View All</x>
+        </div>
+          <!--Similar artist-->
+        <div id="similar-artist">
+          <div id="artist-img"></div>
+          <div id="song-details">
+            Imagine Dragon
+            <br/>
+            <author>Pop Band</author>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+  
+        <div id="similar-artist">
+          <div id="artist-img"></div>
+          <div id="song-details">
+              Imagine Dragon
+              <br/>
+              <author>Pop Band</author>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+  
+        <div id="similar-artist">
+          <div id="artist-img"></div>
+          <div id="song-details">
+              Imagine Dragon
+              <br/>
+              <author>Pop Band</author>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+          <!--End of Similar artist-->
+          <div id="aside-header-2">
+              Recently Played
+              <x>View All</x>
+            </div>
+              <!--Recently Played Songs-->
+              <!--Song 1-->
+            <div id="song">
+                <div id="song-number">
+                    01
+                    <img src="Images/mirage.png" alt="album image">
+                    <div id="song-details">
+                      Mirage
+                      <br/>
+                      <author>Else</author>
+                    </div>
+                  </div>
+                
+                <div id="icons">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <!--ENd of song 1-->
+              <!--Song 2-->
+              <div id="song">
+                <div id="song-number">
+                    02
+                    <img src="Images/worry about us.png" alt="album image">
+                    <div id="song-details">
+                      Worry Bout Us
+                      <br/>
+                      <author>Rosie Lowe</author>
+                    </div>
+                  </div>
+                
+                <div id="icons">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <!--End of song 2-->
+              <!--Song 3-->
+              <div id="song">
+                <div id="song-number">
+                    03
+                    <img src="Images/new skin.png" alt="album image">
+                    <div id="song-details">
+                      New Skin
+                      <br/>
+                      <author>Flume</author>
+                    </div>
+                  </div>
+                
+                <div id="icons">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <!--End of song 3-->
+              <!--Song 4-->
+              <div id="song">
+                <div id="song-number">
+                    04
+                    <img src="Images/worry about us.png" alt="album image">
+                    <div id="song-details">
+                      Worry Bout Us
+                      <br/>
+                      <author>Rosie Lowe</author>
+                    </div>
+                  </div>
+                
+                <div id="icons">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <!--End of song 4-->
+              <!--Song 5-->
+              <div id="song">
+                <div id="song-number">
+                    05
+                    <img src="Images/new skin.png" alt="album image">
+                    <div id="song-details">
+                      New Skin
+                      <br/>
+                      <author>Flume</author>
+                    </div>
+                  </div>
+                
+                <div id="icons">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <!--End of song 5-->
+              <!--End of recently played songs-->
+          </aside>
+          <!--End of aside-->
+           <!--Begining of footer section-->
+   <footer>
+      <!--The bottom music bar which pops up when we play a music-->
+     <div id="music-bar">
+       <!--Music Icon-->
+       <div id="music-icon">
+          <img src="Images/fotter img.png" alt="music-icon">
+       </div>
+       <!--End of music icon-->
+       <!--Music title-->
+       <div id="music-title">
+         <b>Imagine by John Lennon</b>
+               <div id="favourite">
+            <i class="far fa-heart"></i>
+         </div>
+         <div id="remove">
+           <i class="fas fa-ban"></i>
+         </div>
+         <br/>
+         <artist>John Lennon</artist>
+       </div>
+       <!--End of music title-->
+       <!--Play buttons-->
+       <div id="play-buttons">
+         <i class="fas fa-random"></i>
+         <i class="fas fa-backward"></i>
+         <i class="fas fa-pause-circle"></i>
+         <i class="fas fa-forward"></i>
+         <i class="fas fa-undo-alt"></i>
+       </div>
+       <!--End of play buttons-->
+       <!--Music start time-->
+         <div id="start-time">
+               1:39
+         </div>
+         <!--End of music start time-->
+         <!--Music end time-->
+         <div id="end-time">
+               4:44
+         </div>
+         <!--End of music end time-->
+         <!--Begining of the progress bar-->
+       <div id="progress-bar">
+            <div id="circle">
+              <i class="fas fa-circle"></i>
+           </div>
+       </div>
+       <!--End of progress bar-->
+       <!--Miscellaneous icons-->
+       <div id="queue">
+         <i class="fas fa-bars"></i>
+       </div>
+       <div id="volume">
+         <i class="fas fa-volume-up"></i>
+       </div>
+       <div id="progress-bar-volume">
+         <div id="circle-volume">
+           <i class="fas fa-circle"></i>
+           </div>
+       </div>
+       <!--End of miscellaneous icons-->
+     </div>
+     <!--End of music bar-->
+      </footer>
+      <!--End of footer section-->
+  </body>
+
+  <script src="script.js"></script>
+</html>
